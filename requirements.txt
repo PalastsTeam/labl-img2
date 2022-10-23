@@ -1,20 +1,5 @@
 -i https://pypi.org/simple
-google-api-core
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
-google-auth
-google
-googleapis-common-protos
-gsheetsdb
-gspread-pandas
 gspread
-httplib2
 numpy
-oauthlib
-packaging
 pandas
-requests-oauthlib
-requests
 streamlit
-toml
