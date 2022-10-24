@@ -68,7 +68,7 @@ with col1:
 with col2:
     st.subheader('Legs')
     nlegs = st.slider('Wie viele Biene', min_value=0,
-                      max_value=5, value=4, key='nleg')
+                      max_value=10, value=4, key='nleg')
 
     leg_length = st.multiselect(
         'Leg length',
@@ -109,11 +109,11 @@ with col4:
 with col3:
     st.subheader('Türe')
     ntuere = st.slider('Wie viele Türe', min_value=0,
-                       max_value=5, value=4, key='ntuer')
+                       max_value=10, value=4, key='ntuer')
     nschub = st.slider('Wie viele Schubladen', min_value=0,
-                       max_value=5, value=4, key='nschub')
+                       max_value=10, value=4, key='nschub')
     nregal = st.slider('Wie viele offene Regale', min_value=0,
-                       max_value=5, value=4, key='nreg')
+                       max_value=10, value=4, key='nreg')
 
     colors = st.multiselect(
         'Pattern',
